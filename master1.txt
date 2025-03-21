@@ -32,4 +32,19 @@ Practical: Demonstrate the difference between merge and rebase (using git push)
 	master1--> master2--> hiray1
 
 Practical : Collaborate
-
+1] login to git hub
+//For A
+2] Create a new Repository
+3] Go to Repo Settings.
+4] Click on Collaborators.
+5] Click on Add People
+6] Search for B's Github Profile.
+7] Click on Add Button.
+//For B
+1] Click on Profile Button
+2] Click on 'Your Organizations'
+3] Click on Accept which was sent by A.
+4] Click on Accept.
+5] Push a file on the repo
+//For A
+1] Refresh the Repo page.
