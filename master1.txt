@@ -1,1 +1,35 @@
-This is Master Document under master branch
+Practical: Demonstrate the difference between merge and rebase (using git push)
+
+//Merge
+1] Create a folder on desktop say "GitMerge"
+2] Initialize Git using- "git init"
+3] Create master1.txt under master branch
+4] create a new branch say "hiray" using - "git branch hiray" and switch to that branch
+5] Create hiray1.txt under hiray branch 
+	check git log
+6] Go back to master branch 
+7] Create master2.txt under master branch
+	check git log 
+8] Go to hiray branch using - "git checkout hiray"
+9] Perform merge using "git merge master"
+10] check git log
+	master1--> hiray1--> master2
+
+
+//Rebase
+1] Create a folder on desktop say "GitMerge"
+2] Initialize Git using- "git init"
+3] Create master1.txt under master branch
+4] create a new branch say "hiray" using - "git branch hiray" and switch to that branch
+5] Create hiray1.txt under hiray branch 
+	check git log
+6] Go back to master branch 
+7] Create master2.txt under master branch
+	check git log 
+8] Go to hiray branch using - "git checkout hiray"
+9] Perform merge using "git rebase master"
+10] check git log
+	master1--> master2--> hiray1
+
+Practical : Collaborate
+
